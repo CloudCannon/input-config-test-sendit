@@ -42,9 +42,6 @@ collections_config:
         type: image
         label: Favicon CHANGED
         comment: For the icon meta tag
-      copyright:
-        comment: Automatically prefixed with the current year
-        label: Copyright CHANGED ON COLLECTION
   site_navigation:
     output: true
     path: data 
@@ -58,6 +55,10 @@ collections_config:
       include: 
         - nav.yaml
         - footer.yaml
+    _inputs:
+      copyright:
+        comment: Automatically prefixed with the current year
+        label: Copyright CHANGED ON DATA COLLECTION
   
 collection_groups:
   - heading: Pages 
