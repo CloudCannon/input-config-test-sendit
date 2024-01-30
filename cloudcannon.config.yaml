@@ -40,6 +40,7 @@ collections_config:
     _inputs:
       favicon_image:
         type: image
+        label: Favicon CHANGED
         comment: For the icon meta tag
   site_navigation:
     output: true
