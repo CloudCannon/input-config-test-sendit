@@ -37,6 +37,10 @@ collections_config:
       exclude:
         - footer.yaml
         - nav.yaml
+    _inputs:
+      favicon_image:
+        type: image
+        comment: For the icon meta tag
   site_navigation:
     output: true
     path: data 
@@ -121,9 +125,6 @@ _inputs:
   favicon_icon:
     type: image
     comment: For the shortcut icon meta tag
-  favicon_image:
-    type: image
-    comment: For the icon meta tag
   enable_dropdown:
     type: switch
   dropdown:
